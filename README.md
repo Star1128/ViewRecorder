@@ -1,6 +1,6 @@
 # ViewRecorder
 
-[中文版]: https://github.com/Star1128/ViewRecorder/blob/main/README-CN.md
+[中文版]:(https://github.com/Star1128/ViewRecorder/blob/main/README-CN.md)
 
 Android View-level screen area recording scheme (support for SurfaceView and TextureView)
 
