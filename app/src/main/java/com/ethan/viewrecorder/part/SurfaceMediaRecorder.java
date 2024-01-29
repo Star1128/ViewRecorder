@@ -1,4 +1,4 @@
-package com.ethan.viewrecorder;
+package com.ethan.viewrecorder.part;
 
 import android.graphics.Canvas;
 import android.media.MediaRecorder;

@@ -1,9 +1,10 @@
-package com.ethan.viewrecorder
+package com.ethan.viewrecorder.part
 
 import android.media.MediaRecorder
 import android.os.Handler
 import android.os.HandlerThread
 import android.view.View
+import com.ethan.viewrecorder.BaseApplication
 import java.io.File
 import java.io.IOException
 
@@ -14,7 +15,8 @@ import java.io.IOException
 class ViewRecorderLauncher {
 
     private var mWorkerHandler: Handler? = null
-    private var mViewRecorder: ViewRecorder = ViewRecorder()
+    private var mViewRecorder: ViewRecorder =
+        ViewRecorder()
     private var mPartRecording = false
 
     private val mOnErrorListener =
